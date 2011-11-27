@@ -1,0 +1,4 @@
+Version='0.3.0'
+Authors=['muzuiget <muzuiget@gmail.com>']
+Name=_('GMBox')
+Description=_('让exaile支持谷歌音乐')

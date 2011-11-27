@@ -1,0 +1,10 @@
+EOF
+random_enabled=
+random_mode=
+repeat_enabled=
+repeat_mode=
+dynamic_enabled=B: False
+current_pos=I: -1
+name=S: order0.playing.播放列表 %d
+_is_custom=B: False
+_needs_save=B: False

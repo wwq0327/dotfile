@@ -1,0 +1,21 @@
+(dp1
+S'custom_params'
+p2
+(lp3
+sS'name'
+p4
+V\u968f\u673a 100
+p5
+sS'track_count'
+p6
+I100
+sS'random_sort'
+p7
+I01
+sS'search_params'
+p8
+(lp9
+sS'or_match'
+p10
+I00
+s.

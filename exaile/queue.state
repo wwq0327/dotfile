@@ -1,0 +1,10 @@
+EOF
+random_enabled=B: False
+random_mode=S: track
+repeat_enabled=B: False
+repeat_mode=S: playlist
+dynamic_enabled=B: False
+current_pos=I: -1
+name=S: Queue
+_is_custom=B: False
+_needs_save=B: False

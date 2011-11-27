@@ -1,0 +1,26 @@
+(dp1
+S'custom_params'
+p2
+(lp3
+sS'name'
+p4
+V\u8bc4\u5206 > 3
+p5
+sS'track_count'
+p6
+I-1
+sS'random_sort'
+p7
+I00
+sS'search_params'
+p8
+(lp9
+(lp10
+S'__rating'
+p11
+aS'>'
+aI3
+aasS'or_match'
+p12
+I00
+s.

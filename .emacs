@@ -1,6 +1,6 @@
 ;;LOAD_PATH
 (add-to-list 'load-path' "~/.emacs.d/site-lisp")
-(add-to-list 'load-path' "~/.emacs.d/site-lisp/ruby-mode")
+;;(add-to-list 'load-path' "~/.emacs.d/site-lisp/ruby-mode")
 
 ;;设置背景色为 黑色
 ;;(set-face-background 'default "black")

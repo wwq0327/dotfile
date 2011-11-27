@@ -27,6 +27,7 @@ sources = [
     '/home/wyatt/.themes',
     '/home/wyatt/.vimrc',
     '/etc/yum.repos.d',
+    '/home/wyatt/.gitconfig'
     ]
 
 #目标目录

@@ -1,6 +1,6 @@
 ;;LOAD_PATH
 (add-to-list 'load-path' "~/.emacs.d/site-lisp")
-;;(add-to-list 'load-path' "~/.emacs.d/site-lisp/ruby-mode")
+(add-to-list 'load-path' "~/.emacs.d/site-lisp/ruby-mode")
 
 ;;设置背景色为 黑色
 ;;(set-face-background 'default "black")
@@ -280,6 +280,9 @@
 (add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode))
 
-;; (require 'ruby-style)
-;; (add-hook 'c-mode-hook 'ruby-style-c-mode)
-;; (add-hook 'c++-mode-hook 'ruby-style-c-mode)
+(require 'ruby-style)
+(add-hook 'c-mode-hook 'ruby-style-c-mode)
+(add-hook 'c++-mode-hook 'ruby-style-c-mode)
+
+(setq load-path (cons "~/.emacs.d/site-lisp/emacs-rails" load-path))
+(require 'rails)

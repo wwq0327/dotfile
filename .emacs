@@ -1,11 +1,12 @@
 ;;LOAD_PATH
 (add-to-list 'load-path' "~/.emacs.d/site-lisp")
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/ruby-mode")
+(add-to-list 'load-path' "~/.emacs.d/site-lisp/nxhtml")
 
 ;;设置背景色为 黑色
 ;;(set-face-background 'default "black")
 ;;设置前字体色为绿色
-;;(set-foreground-color "green")  
+;;(set-foreground-color "green")
 
 ;; color
 ;;(require 'color-theme)
@@ -92,7 +93,7 @@
 (autoload 'pymacs-call "pymacs")
 
 (setq interpreter-mode-alist(cons '("python" . python-mode)
-                             interpreter-mode-alist)) 
+                             interpreter-mode-alist))
 
 ;; (pymacs-load "ropemacs" "rope-")
 ;; (setq ropemacs-enable-autoimport t)
@@ -116,9 +117,9 @@
 ;; (require 'org-publish)
 ;; (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 ;; (add-hook 'org-mode-hook 'turn-on-font-lock)
-;; (add-hook 'org-mode-hook 
+;; (add-hook 'org-mode-hook
 ;; (lambda () (setq truncate-lines nil)))
- 
+
 ;; (global-set-key "\C-cl" 'org-store-link)
 ;; (global-set-key "\C-ca" 'org-agenda)
 ;; (global-set-key "\C-cb" 'org-iswitchb)
@@ -136,8 +137,8 @@
 ;;          :index-title "index"
 ;;          :link-home "index.html"
 ;;          :section-numbers t
-;; 	 :style "<link rel=\"stylesheet\" href=\"../css/emacs.css\" type=\"text/css\"/>"
-;; 	 )
+;;       :style "<link rel=\"stylesheet\" href=\"../css/emacs.css\" type=\"text/css\"/>"
+;;       )
 
 ;;         ("note-static"
 ;;          :base-directory "/home/wyatt/wlife/org"
@@ -145,7 +146,7 @@
 ;;          :recursive t
 ;;          :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el"
 ;;          :publishing-function org-publish-attachment)
-;;         ("note" 
+;;         ("note"
 ;;          :components ("note-org" "note-static")
 ;;          :author "wwq0327@gmail.com"
 ;;          )))
@@ -154,15 +155,15 @@
 
 (global-set-key (kbd "<f12> p") 'org-publish)
 
-;;html-helper-mode
-(autoload 'html-helper-mode "html-helper-mode" "Yay HTML" t)
-(setq auto-mode-alist (cons '("\\.html$" . html-helper-mode) auto-mode-alist))
+;; ;;html-helper-mode
+;; (autoload 'html-helper-mode "html-helper-mode" "Yay HTML" t)
+;; (setq auto-mode-alist (cons '("\\.html$" . html-helper-mode) auto-mode-alist))
 
-;;CSS
-(autoload 'css-mode "css-mode")
-(setq auto-mode-alist       
-     (cons '("\\.css\\'" . css-mode) auto-mode-alist))
-(setq cssm-indent-function #'cssm-c-style-indenter)
+;; ;;CSS
+;; (autoload 'css-mode "css-mode")
+;; (setq auto-mode-alist
+;;      (cons '("\\.css\\'" . css-mode) auto-mode-alist))
+;; (setq cssm-indent-function #'cssm-c-style-indenter)
 
 ;;代码折叠
 ;; (add-hook 'python-mode-hook 'my-python-hook)
@@ -197,13 +198,13 @@
 ;; (require 'ecb)
 
 ;; (add-to-list 'load-path  "~/.emacs.d/site-lisp/cedet/semantic")
-;; (setq semantic-load-turn-everything-on t) 
+;; (setq semantic-load-turn-everything-on t)
 
 ;; txt2tags
 (setq auto-mode-alist (append (list
- 	'("\\.t2t$" . t2t-mode)
- 	)
- 	(if (boundp 'auto-mode-alist) auto-mode-alist)
+        '("\\.t2t$" . t2t-mode)
+        )
+        (if (boundp 'auto-mode-alist) auto-mode-alist)
 ))
 
 (autoload  't2t-mode "txt2tags-mode" "Txt2tags Mode" t)
@@ -216,7 +217,7 @@
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#00ff00" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 88 :width normal :foundry "apple" :family "Monaco")))))
 
 ;; ;;clisp
-;; ;;(setq inferior-lisp-program "/usr/bin/clisp") 
+;; ;;(setq inferior-lisp-program "/usr/bin/clisp")
 ;; (setq slime-lisp-implementations
 ;;       '((sbcl ("/usr/bin/sbcl") :coding-system utf-8-unix)    ;(NAME ("/path/to/imp" "--args") :coding-system)
 ;;         (clisp ("/usr/bin/clisp") :coding-system utf-8-unix)))
@@ -246,7 +247,7 @@
 (c-set-offset 'substatement-open 0)
 
 ;;;;我的C/C++语言编辑策略
- 
+
 ;; (defun my-c-mode-common-hook()
 ;;   (setq tab-width 4 indent-tabs-mode nil)
 ;;   (setq c-basic-offset 4)
@@ -286,3 +287,6 @@
 
 (setq load-path (cons "~/.emacs.d/site-lisp/emacs-rails" load-path))
 (require 'rails)
+
+;;; html, css, js dev
+(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")

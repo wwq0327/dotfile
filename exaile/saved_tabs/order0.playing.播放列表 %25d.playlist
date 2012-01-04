@@ -10,13 +10,15 @@ file:///home/wyatt/Music/BTB-%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%E7%B2
 file:///home/wyatt/Music/BTB-%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%E7%B2%BE%E9%80%89-%E5%BC%A0%E5%AD%A6%E5%8F%8B/%E5%BC%A0%E5%AD%A6%E5%8F%8B%20-%20LINDA.mp3	album=BTB-%22%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%22%E7%B2%BE%E9%80%89-%E5%BC%A0%E5%AD%A6%E5%8F%8B&title=LINDA&artist=%E5%BC%A0%E5%AD%A6%E5%8F%8B&date=0001-01-01+00%3A00%3A00&genre=%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90%E3%80%90Pop+Music%E3%80%91&tracknumber=10
 file:///home/wyatt/Music/BTB-%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%E7%B2%BE%E9%80%89-%E5%BC%A0%E5%AD%A6%E5%8F%8B/%E5%BC%A0%E5%AD%A6%E5%8F%8B%20-%20%E4%BA%B2%E4%BA%B2.mp3	album=BTB-%22%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%22%E7%B2%BE%E9%80%89-%E5%BC%A0%E5%AD%A6%E5%8F%8B&title=%E4%BA%B2%E4%BA%B2&artist=%E5%BC%A0%E5%AD%A6%E5%8F%8B&date=0001-01-01+00%3A00%3A00&genre=%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90%E3%80%90Pop+Music%E3%80%91&tracknumber=11
 file:///home/wyatt/Music/BTB-%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%E7%B2%BE%E9%80%89-%E5%BC%A0%E5%AD%A6%E5%8F%8B/%E5%BC%A0%E5%AD%A6%E5%8F%8B%20-%20%E5%86%8D%E7%88%B1%E4%B8%8A%E4%BD%A0.mp3	album=BTB-%22%E7%88%B1%E4%BD%A0%E5%A4%9A%E4%B8%80%E4%BA%9B%22%E7%B2%BE%E9%80%89-%E5%BC%A0%E5%AD%A6%E5%8F%8B&title=%E5%86%8D%E7%88%B1%E4%B8%8A%E4%BD%A0&artist=%E5%BC%A0%E5%AD%A6%E5%8F%8B&date=0001-01-01+00%3A00%3A00&genre=%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90%E3%80%90Pop+Music%E3%80%91&tracknumber=12
+file:///home/wyatt/Music/The%20Best%20Of%20Bob%20Dylan/%E9%B2%8D%E5%8B%83%20%E8%BF%AA%E4%BC%A6(Bob%20Dylan)%20-%20Knockin%20On%20Heavens%20Door.mp3	album=The+Best+Of+Bob+Dylan&title=Knockin%27+On+Heaven%27s+Door&artist=%E9%B2%8D%E5%8B%83+%E8%BF%AA%E4%BC%A6%28Bob+Dylan%29&date=1997-01-01+00%3A00%3A00&genre=%E4%B9%A1%E6%9D%91%E9%9F%B3%E4%B9%90%E3%80%90Country+Music%E3%80%91%2C%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90%E3%80%90Pop+Music%E3%80%91&tracknumber=11
+file:///home/wyatt/Music/The%20Best%20Of%20Bob%20Dylan/%E9%B2%8D%E5%8B%83%20%E8%BF%AA%E4%BC%A6(Bob%20Dylan)%20-%20Blowing%20In%20The%20Wind.mp3	album=The+Best+Of+Bob+Dylan&title=Blowing+In+The+Wind&artist=%E9%B2%8D%E5%8B%83+%E8%BF%AA%E4%BC%A6%28Bob+Dylan%29&date=1997-01-01+00%3A00%3A00&genre=%E4%B9%A1%E6%9D%91%E9%9F%B3%E4%B9%90%E3%80%90Country+Music%E3%80%91%2C%E6%B5%81%E8%A1%8C%E9%9F%B3%E4%B9%90%E3%80%90Pop+Music%E3%80%91&tracknumber=2
 EOF
 random_enabled=
 random_mode=
 repeat_enabled=
 repeat_mode=
 dynamic_enabled=B: False
-current_pos=I: 9
+current_pos=I: -1
 name=S: order0.playing.播放列表 %d
 _is_custom=B: False
 _needs_save=B: True

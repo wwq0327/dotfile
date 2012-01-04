@@ -2,6 +2,7 @@
 (add-to-list 'load-path' "~/.emacs.d/site-lisp")
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/ruby-mode")
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/nxhtml")
+(add-to-list 'load-path' "~/.emacs.d/site-lisp/yasnippet")
 
 ;;设置背景色为 黑色
 ;;(set-face-background 'default "black")
@@ -289,4 +290,14 @@
 (require 'rails)
 
 ;;; html, css, js dev
-(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
+;; (load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
+
+(autoload 'django-html-mumamo-mode "~/.emacs.d/site-lisp/nxhtml/autostart.el")
+(setq auto-mode-alist
+      (append '(("\\.html?$" . django-html-mumamo-mode)) auto-mode-alist))
+(setq mumamo-background-colors nil)
+(add-to-list 'auto-mode-alist '("\\.html$" . django-html-mumamo-mode))
+
+(require 'yasnippet) ;; not yasnippet-bundle
+(yas/global-mode 1)
+(yas/load-directory "~/.emacs.d/mysnippets")

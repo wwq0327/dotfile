@@ -1,0 +1,40 @@
+[decoration]
+as_shadow_radius = 11.881800
+as_shadow_opacity = 3.827000
+as_shadow_color = #00000064
+as_shadow_x_offset = 2
+as_shadow_y_offset = 2
+as_command = emerald --replace
+
+[core]
+as_active_plugins = core;decoration;zoom;switcher;move;resize;gnomecompat;place;scale;put;
+as_autoraise = false
+as_autoraise_delay = 500
+as_maximize_window_key = Disabled
+as_window_menu_key = Disabled
+as_toggle_window_maximized_key = <Alt>space
+as_toggle_window_shaded_key = Disabled
+
+[fade]
+s0_fullscreen_visual_bell = true
+
+[gnomecompat]
+as_command_terminal = terminator
+as_run_command_terminal_key = <Alt>Return
+
+[place]
+s0_mode = 1
+
+[put]
+as_put_left_key = Disabled
+as_put_right_key = Disabled
+as_put_top_key = Disabled
+as_put_bottom_key = Disabled
+as_put_topleft_key = Disabled
+as_put_topright_key = Disabled
+as_put_bottomleft_key = Disabled
+as_put_bottomright_key = Disabled
+
+[staticswitcher]
+as_prev_key = Disabled
+

@@ -5,7 +5,7 @@
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/yasnippet")
 
 ;;设置背景色为 黑色
-;;(set-face-background 'default "black")
+(set-face-background 'default "black")
 ;;设置前字体色为绿色
 ;;(set-foreground-color "green")
 
@@ -298,6 +298,7 @@
 (setq mumamo-background-colors nil)
 (add-to-list 'auto-mode-alist '("\\.html$" . django-html-mumamo-mode))
 
-(require 'yasnippet) ;; not yasnippet-bundle
-(yas/global-mode 1)
-(yas/load-directory "~/.emacs.d/mysnippets")
+;;(require 'yasnippet) ;; not yasnippet-bundle
+;;(yas/global-mode 1)
+;;(yas/load-directory "~/.emacs.d/mysnippets")
+(put 'upcase-region 'disabled nil)

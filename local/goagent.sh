@@ -1,2 +1,2 @@
 #!/bin/sh
-python ~/local/proxy.py
+python ~/git/dotfile/local/proxy.py
